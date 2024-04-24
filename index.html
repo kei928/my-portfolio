@@ -4,8 +4,11 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    
+
     <title>Niwa Satoru ポートフォリオ</title>
+
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/redd.css">
 </head>
 
 <body>
@@ -13,8 +16,9 @@
 
         <header class="header">
             <div class="container">
-                <h1 class = "header-logo">
-                    <a href=".">Niwa Satoru</a>
+                <h1 class="header-logo">
+                    
+                    Niwa Satoru
                 </h1>
 
                 <nav class="gnav">
@@ -35,33 +39,48 @@
                 </nav>
             </div>
         </header>
-    
-        <div class ="mv">
+
+        <div class="mv">
             <div class="mv-inner">
                 <p class="mv-title">Niwa Satoru</p>
                 <p class="mv-subtitle">ポートフォリオ</p>
             </div>
         </div>
-        
+
         <section class="products" id="products">
             <div class="container">
                 <h2 class="section-title">PRODUCTS</h2>
                 <div class="products-list">
                     <div class="products-item">
-                        <img src="img/1.jpg" alt="product1" class="products-image">
-                        <p class="products-title">寝落ちアラート</p>
-                        <p class="work-info">Huck Summer 愛知というハッカソンで作成した作品です
-                        </p>
+                        <a class="products-link" href="pfs.html">
+                            <img src="img/1.jpg" alt="product1" class="products-image">
+                            <p class="products-title">寝落ちアラート</p>
+                            <p class="work-info">Huck Summer 愛知というハッカソンで作成した作品です
+                            </p>
+                        </a>
                     </div>
                     <div class="products-item">
-                        <img src="img/2.jpg" alt="product2" class="products-image">
+                        <a class="products-link" href="pfs.html">
+                        <img src="img/hudemozi.jpeg" alt="product2" class="products-image">
                         <p class="products-title">必殺筆文字</p>
                         <p class="work-info">東京ゲームショウで作成した作品です</p>
+                        </a>
                     </div>
+
                     <div class="products-item">
+                        <a class="products-link" href="pfs.html">
+                        <img src="img/Dubi.png" alt="product3" class="products-image">
+                        <p class="products-title">DubidubiBlock</p>
+                        <p>お遊びで作ったブロック崩しです</p>
+                        </a>
+                    </div>
+
+                    <div class="products-item">
+                        <a class="products-link" href="pfs.html">
                         <img src="img/3.jpg" alt="product3" class="products-image">
                         <p class="products-title">Aigo-chan</p>
                         <p>技育キャンプキャラバン 名古屋で企業賞をもらった作品です</p>
+                        </a>
                         </p>
                     </div>
                 </div>
@@ -77,18 +96,59 @@
                         <p class="skill-title">HTML</p>
                         <p class="skill-info">基本的な構造を理解しています</p>
                     </div>
-                    
+
                     <div class="skill-item">
                         <img src="img/css.png" alt="css" class="skill-image">
                         <p class="skill-title">CSS</p>
                         <p class="skill-info">あまりちゃんと勉強したことはなく､知識は浅い</p>
                     </div>
-                
+
                     <div class="skill-item">
                         <img src="img/js.png" alt="js" class="skill-image">
                         <p class="skill-title">JavaScript</p>
                         <p class="skill-info">ちょっとだけ触ったことがあります</p>
-    </div>
+                    </div>
 
+                    <section class="about" id="about">
+                        <div class="container">
+                            <h2 class="section-title">ABOUT</h2>
+                            <div class="about-inner">
+                                <img src="img/profile.jpg" alt="profile" class="about-image">
+                                <div class="about-contents">
+                                    <p>名前:丹羽慧</p>
+                                    <p>愛知工業大学 情報科学部2年</p>
+                                </div>
+                            </div>
+
+                        </div>
+                </div>
+        </section>
+
+        <section class="contact" id="contact">
+            <div class="container">
+                <h2 class="title">
+                    CONTACT
+                </h2>
+                <p class="contact-text">
+                    お問い合わせは<span class="contact-item">nayutan2080@gmail.com</span>
+                    までお願いします
+                </p>
+            </div>
+        </section>
+        <div class="page-top" id="page-top">
+            <a href="#top" class="page-top-button">TOP</a>
+
+        </div>
+        <footer class="footer">
+            <div class="container">
+                <p class="footer-text">© 2024 Niwa Satoru</p>
+            </div>
+
+        </footer>
+    </div>
+    <script src="js/main.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
 
 </body>
+
+</html>
